@@ -1,0 +1,11 @@
+.content {
+  gap: 2rem;
+  padding: 0 2rem;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content span {
+  font-weight: 400;
+}

@@ -1,0 +1,13 @@
+.stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.stat:nth-child(even) {
+  grid-column: 1 / 3;
+}
+
+.stat:nth-child(odd) {
+  grid-column: 3 / 5;
+}

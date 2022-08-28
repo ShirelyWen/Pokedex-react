@@ -1,0 +1,10 @@
+.back_btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.back_btn svg {
+  height: 3rem;
+  width: 3rem;
+}
