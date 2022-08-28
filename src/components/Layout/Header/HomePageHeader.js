@@ -12,7 +12,7 @@ const HomePageHeader = () => {
         <span>Pokédex</span>
       </Button>
       <ExternalLink
-        href="https://github.com/ShirelyWen/Pokedex.git"
+        href="https://github.com/ShirelyWen/Pokedex-react.git"
         target="_blank"
       >
         <GitHubIcon />
