@@ -6,9 +6,19 @@ import { GitHubIcon } from "../../../icons/GitHubIcon";
 import classes from "./HomePageHeader.module.css";
 
 const HomePageHeader = () => {
+  const scrollToTopHandler = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
-    <Header>
-      <Button className={classes.icon_btn} type="button">
+    <Header position={"sticky"}>
+      <Button
+        className={classes.icon_btn}
+        type="button"
+        onClick={scrollToTopHandler}
+      >
         <span>Pokédex</span>
       </Button>
       <ExternalLink

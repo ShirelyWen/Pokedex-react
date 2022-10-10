@@ -36,7 +36,7 @@ const PokemonBasic = (props) => {
   return (
     <DetailsCard>
       <p className={classes.number}>{`#${helperFn.formatID(props.id)}`}</p>
-      <img src={image} />
+      <img src={image} alt={name} />
       <div className={classes.bio}>
         <div className={classes.type_container}>{types}</div>
         <p className={classes.content}>{bio}</p>

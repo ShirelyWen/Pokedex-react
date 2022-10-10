@@ -1,11 +1,11 @@
 import React from "react";
 import classes from "./Header.module.css";
 
-const Header = ({ children, color, ...rest }) => {
+const Header = ({ children, color, position, ...rest }) => {
   return (
     <header
       className={classes.header}
-      style={{ backgroundColor: color }}
+      style={{ backgroundColor: color, position: position }}
       {...rest}
     >
       {children}

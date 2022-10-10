@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { LoaderIcon } from "../../icons/Loader";
 import classes from "./Loader.module.css";
 

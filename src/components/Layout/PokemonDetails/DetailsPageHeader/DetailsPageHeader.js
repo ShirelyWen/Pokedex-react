@@ -18,7 +18,7 @@ const DetailsPageHeader = (props) => {
   const type = getFirstType(pokemon);
 
   return (
-    <Header color={Colors[type]}>
+    <Header color={Colors[type]} position={"static"}>
       <button
         type="button"
         className={classes.back_btn}
